@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | QR code component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors:
+ 
+      'indigo': {
+        DEFAULT: '#3E80CC',
+        50: '#CFE0F2',
+        100: '#BFD5EE',
+        200: '#9FC0E6',
+        300: '#7FAADD',
+        400: '#5E95D5',
+        500: '#3E80CC',
+        600: '#2C65A6',
+        700: '#204A7A',
+        800: '#142F4D',
+        900: '#091421',
+        950: '#03060B',
+      },
+
+              }
+            }
+          }
+    </script>
+  
+  </head>
+  <body
+    class="min-h-screen flex justify-center items-center text-center"
+  >
+    <main class="max-w-xs rounded-3xl bg-white text-center ">
+      <div class="  ">
+        <img
+          src="/images/image-qr-code.png"
+          alt="QR-code"
+          class="w-11/12 rounded-2xl m-3 my-4 mt-4"
+        />
+
+        <h1 class="m-4 text-xl font-bold mx-7">
+          Improve your front-end skills by building projects
+        </h1>
+
+        <p class="m-2 mx-8 mb-5 text-mirage-950">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+
+        <div class="text-center text-xs mb-2">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            class="text-indigo-500"
+            >Frontend Mentor</a
+          >. Coded by <a href="#" class="text-indigo-500">John Dranreb</a>.
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
